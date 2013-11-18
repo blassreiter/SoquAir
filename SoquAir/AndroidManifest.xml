@@ -25,7 +25,9 @@
         <!--广告点击后，打开Landing Site时使用的Activity，必选 (将com.soquair.android替换成你在SoquAir平台上所写的包名)-->
          <activity
             android:name="com.soquair.android.SoquAirActivity"
-            android:excludeFromRecents="true"  >
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+              >
         </activity>
         <!-- 广告所需的BroadcastReceiver 必选 (将com.soquair.android替换成你在SoquAir平台上所写的包名) -->
        <receiver android:name="com.soquair.android.SoquReceiver">
