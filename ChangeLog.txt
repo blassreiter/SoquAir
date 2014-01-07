@@ -1,8 +1,0 @@
-2.3更新内容：
-
-1.	AndroidManifest.xml配置，
-	a)	去掉了service注册
-	b)	去掉了recivier注册
-	c)	修改了activity注册的参数
-2.	加入了创建快捷方式的权限
-3.  加入了读取WIFI状态的权限
